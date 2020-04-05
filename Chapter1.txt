@@ -1,0 +1,49 @@
+GIVING COMPUTERS THE ABILITY TO LEARN FROM DATA
+
+We will cover the following topics here in this chapter:-
+1. The general concept of machine learning
+2. The three types of learning and basic technology
+3. The building blocks for successfully designing machine learning systems
+
+Data can be in two forms:-
+1. Strucutre data, or we can say data in tabular form or better organize data
+2. Unstructured data, as name implies data which is not structured or organized
+
+Machine learning is the subfield of Artificial Intelligence, artificial intelligence comprises of the algorithm that derived knowledge from data in order to make predictions.
+
+THREE DIFFERENT TYPES OF MACHINE LEARNING
+1. SUPERVISED LEARNING (Labeled data, Direct Feedback, Predict outcome/future)
+2. UNSUPERVISED LEARNING (No label data, No feedback, Find hidden structure in data)
+3. REINFORCEMENT LEARNING (Decision process, Reward System, Learn series of actions)
+
+
+ROADMAP FOR BUILDING MACHINE LEARNING SYSTEMS
+
+1. PREPROCESSING
+    Feature Extraction and Scaling
+    Feature Selection
+    Dimensionality Reduction
+    Sampling
+
+2. LEARNING
+    Model Selection
+    Cross-validation
+    Performace Metrics
+    Hyperparameter Optimization
+
+3. EVALUATION
+
+4. PREDICTION
+
+
+#PREPROCESSING IMPORTANT POINTS
+----------------------------------------------
+Many machine learning algorithms also require that the selected features are on the same scale for optimal performace, which is often achieved by transforming the feature in the range [0,1] or a standard normal distribution with zero mean and unit variance.
+
+Some of the selected features may be highly correlated and therefore redundant to a certain degree, in this cases, dimensionality reduction techniques are useful for compressing the feature onto a lower dimensional subspace.
+
+In some cases when data contains high amount of noise, dimensionality reduction technique can be used to improve the predictive model.
+
+We will make frequent use of hyperparameter optimization techniques that help us to fine-tune the performace of our model, hyper parameters are parameters that are not learned from the data but represent the knobs of a model that we can turn to improve its performace.
+
+
